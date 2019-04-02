@@ -6,6 +6,7 @@ from .db import get_db
 
 bp = Blueprint('control_points', __name__)
 
+
 @bp.route('/')
 def index():
     db = get_db()
